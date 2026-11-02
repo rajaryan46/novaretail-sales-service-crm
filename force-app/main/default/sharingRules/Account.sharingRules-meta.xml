@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>NovaRetail_Sales_Accounts_to_Support</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Sales-owned Accounts with the Support Team for read-only customer visibility.</description>
+        <label>NovaRetail Sales Accounts to Support</label>
+        <sharedTo>
+            <group>NovaRetail_Support_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>NovaRetail_Sales_Team</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

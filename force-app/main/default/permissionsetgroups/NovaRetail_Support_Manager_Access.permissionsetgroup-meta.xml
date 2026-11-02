@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Service Cloud and reporting permissions for NovaRetail Support Managers</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>NovaRetail Support Manager Access</label>
+    <permissionSets>NovaRetail_Manager_Reporting</permissionSets>
+    <permissionSets>NovaRetail_Support_Agent</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
